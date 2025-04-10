@@ -11,13 +11,13 @@ This document details two approaches for semantic segmentation:
 
 The traditional computer vision approach for barcode segmentation involves sequential image processing operations. These steps include noise reduction, thresholding, edge detection, morphological operations, and contour processing.
 
-```
+
     A[Original Image] --> B[Gaussian Blur]
     B --> C[Otsu's Thresholding]
     C --> D[Canny Edge Detection]
     D --> E[Morphological Operations]
     E --> F[Contour Filling]
-    F --> G[Final Segmentation] ```
+    F --> G[Final Segmentation] 
 
 ### Key Operations
 
