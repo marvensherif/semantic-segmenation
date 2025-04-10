@@ -52,6 +52,19 @@ SegFormer is a state-of-the-art transformer-based architecture for semantic segm
 - **Pretrained on:** ADE20K dataset (150 semantic categories)
 
 
+# Testing Tasks:
+-Test directly from the notebook within this repo
+
+## Task 1: Image Testing
+
+For testing Task 1, upload your image and load it using OpenCV in grayscale mode. The code to read the image is as follows:
+image = cv2.imread('bar2.png', cv2.IMREAD_GRAYSCALE)
+
+## Task 2: Image Testing
+  change idx= from 0-2000 to choose image and you will see your original image and segformer output and also the groundtruth 
+
+
+
 
 
 
